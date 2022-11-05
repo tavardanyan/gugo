@@ -1,8 +1,8 @@
 import React from 'react'
-import dynamic from 'next/dynamic';
-const ModalVideo = dynamic(() => import('react-modal-video'), {
-    ssr: false
-});
+// import dynamic from 'next/dynamic';
+// const ModalVideo = dynamic(() => import('react-modal-video'), {
+//     ssr: false
+// });
 
 const IntroVideo = ({ video }) => {
 
@@ -36,12 +36,12 @@ const IntroVideo = ({ video }) => {
                         </div>
                     </div>
     
-                    <ModalVideo 
+                    {/* <ModalVideo 
                         channel='youtube' 
                         isOpen={!isOpen} 
                         videoId={video.youtubeVideoId} 
                         onClose={() => setIsOpen(!isOpen)} 
-                    />
+                    /> */}
                 </div>
             )}
         </>

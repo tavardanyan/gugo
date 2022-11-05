@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import ScrollAnimation from 'react-animate-on-scroll'
+import ScrollAnimation from 'react-animation-on-scroll'
 
 const AboutUsArea = ({ bestApp }) => {
     return (

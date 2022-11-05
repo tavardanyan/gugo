@@ -1,6 +1,6 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
-const OwlCarousel = dynamic(import('react-owl-carousel3'));
+// import dynamic from 'next/dynamic';
+// const OwlCarousel = dynamic(import('react-owl-carousel'));
 
 const options = {
     nav: false,
@@ -54,7 +54,7 @@ const TrustedPartners = ({ partners }) => {
                             </span>
                         </div>
                         <div className="col-lg-10 col-md-12">
-                            {display ? <OwlCarousel 
+                            {/* {display ? <OwlCarousel 
                                 className="trusted-by-slides owl-carousel owl-theme"
                                 {...options}
                             >
@@ -66,7 +66,7 @@ const TrustedPartners = ({ partners }) => {
                                         />
                                     </div> 
                                 ))}
-                            </OwlCarousel> : ''}
+                            </OwlCarousel> : ''} */}
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from 'react-animation-on-scroll';
 
 const AppDownloadStyle2 = ({ downloadApp }) => {
     return (
