@@ -1,5 +1,5 @@
 import React from 'react';
-import ScrollAnimation from 'react-animation-on-scroll';
+import { AnimationOnScroll }from 'react-animation-on-scroll';
 import ReactMarkdown from 'react-markdown'
 
 const SoftwareIntegrationsThree = ({ softwareIntegrations }) => {
@@ -29,7 +29,7 @@ const SoftwareIntegrationsThree = ({ softwareIntegrations }) => {
                                 </div>
 
                                 <div className="col-lg-6 col-md-12">
-                                    <ScrollAnimation animateIn="fadeInUp">
+                                    <AnimationOnScroll animateIn="fadeInUp">
                                         <div className="software-integrations-list">
                                             <img src="/images/shape/border.png" alt="border" />
 
@@ -78,7 +78,7 @@ const SoftwareIntegrationsThree = ({ softwareIntegrations }) => {
                                                 </li>
                                             </ul>
                                         </div>
-                                    </ScrollAnimation>
+                                    </AnimationOnScroll>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import ScrollAnimation from 'react-animation-on-scroll'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 import ReactMarkdown from 'react-markdown'
 
 const AboutUsText = ({ aboutUsText }) => {
@@ -40,12 +40,12 @@ const AboutUsText = ({ aboutUsText }) => {
 
                             <div className="col-lg-6 col-md-12">
                                 <div className="about-image">
-                                    <ScrollAnimation animateIn='fadeInUp'>
+                                    <AnimationOnScroll animateIn='fadeInUp'>
                                         <img 
                                             src={aboutUsText.image.url} 
                                             alt={aboutUsText.image.alternativeText} 
                                         />
-                                    </ScrollAnimation>
+                                    </AnimationOnScroll>
                                 </div>
                             </div>
                         </div>

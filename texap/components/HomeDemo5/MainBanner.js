@@ -1,5 +1,5 @@
 import React from 'react'
-import ScrollAnimation from 'react-animation-on-scroll'
+import { AnimationOnScroll }from 'react-animation-on-scroll'
 
 const MainBanner = ({ banner }) => {
     return (
@@ -28,14 +28,14 @@ const MainBanner = ({ banner }) => {
                             </div>
 
                             <div className="col-lg-6 col-md-12">
-                                <ScrollAnimation animateIn='fadeInUp' duration={2} animateOnce={true} initiallyVisible={true}>
+                                <AnimationOnScroll animateIn='fadeInUp' duration={2} animateOnce={true} initiallyVisible={true}>
                                     <div className="gradient-banner-image">
                                         <img 
                                             src={banner.images.url} 
                                             alt={banner.images.alternativeText} 
                                         />
                                     </div>
-                                </ScrollAnimation>
+                                </AnimationOnScroll>
                             </div>
                         </div>
                     </div>

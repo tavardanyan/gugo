@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import ScrollAnimation from 'react-animation-on-scroll'
+import { AnimationOnScroll }from 'react-animation-on-scroll'
 import TrustedPartners from '@/components/HomeDemo1/TrustedPartners'
 
 const MainBanner = ({ banner, partners }) => {
@@ -24,11 +24,11 @@ const MainBanner = ({ banner, partners }) => {
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-12">
-                                <ScrollAnimation animateIn='fadeInUp' duration={3} animateOnce={true}>
+                                <AnimationOnScroll animateIn='fadeInUp' duration={3} animateOnce={true}>
                                     <div className="main-banner-image">
                                         <img src={banner.image.url} alt={banner.image.alternativeText} />
                                     </div>
-                                </ScrollAnimation>
+                                </AnimationOnScroll>
                             </div>
                         </div>
                     </div>

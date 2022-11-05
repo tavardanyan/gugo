@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import ScrollAnimation from 'react-animation-on-scroll'
+import { AnimationOnScroll }from 'react-animation-on-scroll'
 
 const BestAppEver = ({ bestApp }) => {
     return (
@@ -39,9 +39,9 @@ const BestAppEver = ({ bestApp }) => {
 
                             <div className="col-lg-6 col-md-12">
                                 <div className="features-image text-center">
-                                    <ScrollAnimation animateIn="fadeInUp">
+                                    <AnimationOnScroll animateIn="fadeInUp">
                                         <img src={bestApp.image.url} alt={bestApp.image.alternativeText} />
-                                    </ScrollAnimation>
+                                    </AnimationOnScroll>
 
                                     <div className="shape">
                                         <img className="shape3" src="/images/shape/shape2.png" alt="shape" />

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import ScrollAnimation from 'react-animation-on-scroll'
+import { AnimationOnScroll }from 'react-animation-on-scroll'
 
 const AboutUsContent = ({ aboutUs }) => {
     return (
@@ -41,12 +41,12 @@ const AboutUsContent = ({ aboutUs }) => {
 
                             <div className="col-lg-6 col-md-12">
                                 <div className="about-img">
-                                    <ScrollAnimation animateIn='fadeInUp'>
+                                    <AnimationOnScroll animateIn='fadeInUp'>
                                         <img 
                                             src={aboutUs.image.url} 
                                             alt={aboutUs.image.alternativeText} 
                                         />
-                                    </ScrollAnimation>
+                                    </AnimationOnScroll>
                                 </div>
                             </div>
                         </div>

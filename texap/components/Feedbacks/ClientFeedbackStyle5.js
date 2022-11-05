@@ -3,10 +3,8 @@ import {
     Tab, 
     Tabs, 
     TabList, 
-    TabPanel, 
-    resetIdCounter 
+    TabPanel,
 } from 'react-tabs';
-resetIdCounter();
 
 const ClientFeedbackStyle5 = ({ feedback }) => {
     return (

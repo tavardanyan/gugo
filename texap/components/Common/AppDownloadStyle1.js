@@ -1,5 +1,5 @@
 import React from 'react'
-import ScrollAnimation from 'react-animation-on-scroll'
+import { AnimationOnScroll }from 'react-animation-on-scroll'
 
 const AppDownloadStyle1 = ({ downloadApp }) => {
     return (
@@ -34,9 +34,9 @@ const AppDownloadStyle1 = ({ downloadApp }) => {
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="app-download-image">
-                                        <ScrollAnimation animateIn="fadeInUp">
+                                        <AnimationOnScroll animateIn="fadeInUp">
                                             <img src={downloadApp.image.url} alt={downloadApp.image.alternativeText} />
-                                        </ScrollAnimation>
+                                        </AnimationOnScroll>
                                     </div>
                                 </div>
                             </div>

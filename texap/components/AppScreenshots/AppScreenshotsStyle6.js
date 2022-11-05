@@ -4,9 +4,7 @@ import {
     Tabs, 
     TabList, 
     TabPanel, 
-    resetIdCounter 
 } from 'react-tabs';
-resetIdCounter();
 
 const AppScreenshotsStyle6 = ({ screenshots }) => {
     return (

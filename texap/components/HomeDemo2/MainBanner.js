@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import ScrollAnimation from 'react-animation-on-scroll';
+import { AnimationOnScroll }from 'react-animation-on-scroll';
 
 const MainBanner = ({ banner }) => {
     return (
@@ -24,11 +24,11 @@ const MainBanner = ({ banner }) => {
                             </div>
 
                             <div className="col-lg-6 col-md-12 p-0">
-                                <ScrollAnimation animateIn='fadeInDown' duration={2} animateOnce={true} initiallyVisible={true}>
+                                <AnimationOnScroll animateIn='fadeInDown' duration={2} animateOnce={true} initiallyVisible={true}>
                                     <div className="banner-image">
                                         <img src={banner.image.url} alt={banner.image.alternativeText} />
                                     </div>
-                                </ScrollAnimation>
+                                </AnimationOnScroll>
                             </div>
                         </div>
                     </div>
